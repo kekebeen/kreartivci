@@ -1,0 +1,67 @@
+/* =======================================================================
+## ++ Globals
+========================================================================== */
+html{
+    font-size: 100%;
+    width:100%;
+    height:100%;
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+    color:$grey1;
+    margin:0;
+    padding:0;
+    background-image: url('../kreartivci/images/geometry.png');
+    background-size:20%;
+    width:100%;
+    overflow-x:hidden;
+    border-top:3px solid #967ADC;
+    border-bottom:5px solid #967ADC;
+    font-family: 'OpenSans', 'Open Sans';
+}
+
+body.initial{
+  opacity:1;
+}
+
+body.modal-opened{
+    margin-right: 0!important;
+    overflow: hidden;
+}
+*{
+    box-sizing:border-box;
+}
+
+/*BLOCKQUOTE BARESTYLES*/
+blockquote { border: { left: 4px solid $grey2; } padding: { left: 20px; right: 5px; bottom: 5px; top: 5px; } }
+
+
+/* =======================================================================
+## ++ Cleafix
+========================================================================== */
+
+/* float clearing for IE6 */
+* html .clearfix{
+ height: 1%;
+ overflow: visible;
+}
+
+/* float clearing for IE7 */
+*+html .clearfix{
+ min-height: 1%;
+}
+
+/* float clearing for everyone else */
+.clearfix:after{
+ clear: both;
+ content: ".";
+ display: block;
+ height: 0;
+ visibility: hidden;
+ font-size: 0;
+}
+
+.clr{clear:both;}
+
+.pull-right{float:right;}

@@ -1,0 +1,229 @@
+#products{
+  position:relative;
+  overflow:hidden;
+
+  .section-title{
+    text-align: center;
+
+    h1{
+      text-transform:uppercase;
+    }
+  }
+
+  .product-item{
+    text-align: center;
+    margin: 0px 0px 40px;
+    max-height:300px;
+
+    .snip1321{
+      position: relative;
+      float: left;
+      overflow: hidden;
+      margin: 10px 1%;
+      min-width: 230px;
+      max-width: 315px;
+      width: 100%;
+      color: #000000;
+      text-align: center;
+      -webkit-perspective: 50em;
+      perspective: 50em;
+
+      *{
+        -webkit-box-sizing: padding-box;
+        box-sizing: padding-box;
+        -webkit-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+      }
+
+      img{
+        max-width: 100%;
+        vertical-align: top;
+      }
+      figcaption{
+        top: 50%;
+        left: 20px;
+        right: 20px;
+        position: absolute;
+        opacity: 0;
+        z-index: 1;
+        color:#ffffff;
+
+        strong{
+          font-size:rem(22px);
+        }
+        .btn-outlined{
+          background:Transparent;
+          border:1px solid #ffffff;
+        }
+      }
+
+      &:after{
+        background-color: #967ADC;
+        position: absolute;
+        content: "";
+        display: block;
+        top: 20px;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        -webkit-transform: rotateX(-90deg);
+        transform: rotateX(-90deg);
+        -webkit-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        opacity: 0;
+      }
+
+      &:hover{
+        figcaption{
+          -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+          opacity: 1;
+          -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+        }
+      }//hover
+
+      &:hover:after{
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
+        opacity: 0.9;
+      }//hover after
+    }//snip1231
+    .product-item-title{
+      font-weight: 400;
+      font-size: 16px;
+      color: #111;
+      margin: 15px 0 5px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+
+      a{
+        text-decoration:none!important;
+        color:inherit!important;
+      }
+    }
+    .product-item-price{
+      font-weight: 500;
+      font-size:rem(24px);
+      color:#967ADC;
+    }
+  }//product item image
+}
+
+
+/*POST COVER STYLES
+=======================*/
+.single{
+  #main{
+    .inner{
+      overflow: hidden;
+    }
+  }
+}
+.post-preview{
+  img{
+    max-width: 100%;
+    width:100%;
+  }
+}
+.prev-next-posts{
+  text-align: center;
+  height:50px;
+}
+.prev-posts-link,
+.next-posts-link{
+  a{
+    text-decoration: none;
+    padding:10px 15px;
+    border:1px solid #967ADC;
+  }
+}
+
+.article-list{
+  .blog-title{
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .article{
+    margin-bottom: 25px;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 20px;
+    a{
+      text-decoration: none;
+      h1{
+        transition:opacity .3s ease-in;
+      }
+      &:hover{
+        h1{
+          opacity:0.75;
+        }
+      }
+    }
+    .post-cover{
+      overflow: hidden;
+      position:relative;
+      border-radius: 10px;
+      max-height:350px;
+      img{
+        display:block;
+        height:auto;
+        width:100%;
+        max-width:100%;
+      }
+    }
+  }
+}
+
+
+/*CONTACT PAGE 
+=================*/
+section#contact{
+  .section-title{
+    text-align: center;
+    margin-bottom:3em;
+    h1{
+      text-transform:uppercase;
+    }
+  }
+
+  .flex-row{
+    display:flex;
+    flex-direction:row;
+    @include phones{
+      flex-direction:column;
+    }
+
+    .contact{
+      flex:1;
+      @include phones{
+        order:2;
+      }
+    }
+
+    .contact-description{
+      line-height: 1.5;
+      flex:1;
+      @include phones{
+        order:1;
+        margin-bottom:3em;
+      }
+
+      div.wpcf7{
+        @include phones{
+          text-align:center;
+        }
+      }
+
+      .google-map{
+        width:100%;
+        height:350px;
+        max-height:350px;
+        margin:1.5em 0;
+
+      }
+    }
+  }
+}

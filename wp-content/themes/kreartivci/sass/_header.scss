@@ -1,0 +1,221 @@
+/*MAIN HEADER STYLES 
+=========================*/
+#header{
+  position:relative;
+  top:0;
+  width:100%;
+  height:3.5em;
+  z-index:9998;
+  border-bottom:1px solid rgba(160,160,160,0.3);
+  background:rgba(255,255,255,0.45);
+  padding:1em 0;
+  transform:translateZ(0);
+  @include phones{
+    background:rgba(255,255,255,1);
+  }
+  
+  .header-container{
+    max-width:1200px;
+    width:1200px;
+    margin:0 auto;
+  }
+  #logo{
+    position:absolute;
+    z-index:1;
+    top:0;
+    left:58%;
+    width:8em;
+    margin-left: -7.5em;
+    @include phones{
+      left: 50%;
+      width: 100%;
+    }
+  
+    a{
+      width: 100%;
+      height:3.5em;
+      display:inline-block;
+      letter-spacing: 3px;
+      text-align: center;
+      text-decoration: none;
+      color:#967ADC !important;
+      font-family: 'Marck Script', cursive;
+      @include phones{
+        height:auto;
+      }
+    }
+  }
+
+  #nav{
+    text-align: center !important;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.5em;
+    line-height: 3.5em;
+    @include phones{
+      display:none;
+      top:55px!important;
+      //background-color:white!important;
+      height:auto;
+      border-bottom:1px solid rgba(160,160,160,0.3);
+      background:rgba(255,255,255,0.85);
+    }
+
+    ul{
+      margin:0;
+      padding: 0;
+      height:inherit;
+      line-height: inherit;
+      @include phones{
+        width:100%;
+      }
+      li{
+        -webkit-user-select: none;
+        cursor: pointer;
+        white-space: nowrap;
+        display: inline-block !important;
+        margin-left: 1em;
+        line-height: 3.5em;
+        @include phones{
+          width:100%;
+          margin-left:0;
+        }
+        
+        &.break{
+          margin-left: 20em;
+          @include phones{
+            margin-left:0;
+          }
+        }
+        a{
+          text-decoration: none;
+          outline: 0;
+          border: 0;
+          padding: 0.3em 1em 0.3em 1em;
+          -moz-transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+          -webkit-transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+          -o-transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+          -ms-transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+          transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+          color:inherit;
+          text-transform: uppercase;
+          font-weight:600;
+        }
+
+        &:first-of-type{
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  .menu-toggle{
+    display:none;
+    @include phones{
+      display:block;
+      position:absolute;
+      right:20px;
+
+      a{
+        color:inherit;
+        text-decoration: none;
+      }
+
+    }
+  }
+
+}
+
+/*MAIN SECTION STYLES
+=========================*/
+body > * > .inner{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 2.5em;
+}
+
+.hero{
+  position:relative;
+  height:500px;
+  max-height:500px;
+  margin:0 0 3em 0;
+
+  .hero-inner{
+    position:relative;
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    transform: translateZ(0);
+
+    &:before{
+      content:'';
+      position:fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color:white;
+      background-image:url('images/hero2.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size:cover;
+      will-change:transform;
+      z-index:-1;
+    }
+
+  .hero-text{
+    width:50%;
+    margin:0 auto;
+    color:white;
+    text-transform: uppercase;
+    font-size:rem(70px);
+    font-weight:600;
+    @include phones{
+      width:95%;
+      font-size:rem(40px);
+    }
+
+    span{
+      background-color:rgba(0,0,0,0.85);
+      margin-top:100px;
+      padding:10px;
+      
+      &:nth-of-type(2),
+      &:nth-of-type(3),
+      &:nth-of-type(4){
+        color:#FFCE54;
+        @include phones{
+          margin:0 auto;
+        }
+      }
+      &:nth-of-type(1){
+        color:#967ADC;
+      }
+      &:nth-of-type(2){
+        margin-left:.5em;
+      }
+      &:nth-of-type(3){
+        margin-left:1em;
+      }
+      &:nth-of-type(4){
+        margin-left:1.5em;
+      }
+
+      @include phones{
+        margin-left:0;
+        margin:0 auto;
+        display:block;
+        width:74%;
+      }
+    }
+  }
+   
+  }
+}
+

@@ -1,0 +1,32 @@
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea{
+    background-color: transparent;
+    outline:none;
+    border:none;
+    border-bottom:2px solid #967ADC;
+    color: inherit;
+    width: 50%;
+
+    @include phones{
+      width: 100%;
+    }
+}
+
+//NOT VALID
+span.wpcf7-not-valid-tip {
+  color: #967ADC!important;
+}
+
+div.wpcf7-validation-errors {
+    border: 2px solid #FFCE54!important;
+}
+
+//INPUT SUBMIT
+input[type="submit"],
+.wpcf7-form-control .wpcf7-submit{
+  background: transparent;
+  outline:none;
+  padding:7px 15px;
+  text-transform:uppercase;
+}

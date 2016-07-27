@@ -16,7 +16,7 @@ wp-content/plugins/*
 
 # Ignore everything in the "themes" directory, except the themes we have built
 wp-content/themes/*
-# !wp-content/themes/kreartivci
+!wp-content/themes/kreartivci
 
 #sitemaps created by plugins (dynamically generated so no point storing)
 sitemap.xml
@@ -71,3 +71,24 @@ node_modules
 
 # SVN FILES
 *.svn
+
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+
+# track these files, if they exist
+!.gitignore
+!.editorconfig
+!README.md
+!CHANGELOG.md
+!composer.json
+
+# track favicon files, if they exist
+!android-chrome-*.png
+!apple-touch-icon*.png
+!browserconfig.xml
+!favicon*.png
+!favicon*.ico
+!manifest.json
+!mstile-*.png
+!safari-pinned-tab.svg
