@@ -22,6 +22,52 @@ wp-content/themes/*
 sitemap.xml
 sitemap.xml.gz
 
-#Damm mac files
+
+/*================================================================*/
+# FILE SYSTEMS FILES
+*.db
 .DS_Store
+._*
+*~
+/**/._*
+.fuse*
+
+# LOG FILES
+*.log
+
+# APACHE CONFIGURATION FILES
+/.htaccess
+/.htpasswd
+
+# WORDPRESS CONFIGURATION FILES
+/wp-config.php
+/wp-config-sample.php
+/wp-config/wp-config-database.php
+
+# WORDPRESS DEFAULT FILES
+/licence.txt
+/readme.html
+
+# UPGRADE TEMP FILES
+/app/upgrade/
+
+# UPLOADS AND MEDIA
+/app/uploads
+/uploads
+/app/media
+/media
+
+# EDITORS / IDE FILES
+nbproject/*
+.settings/*
+.buildpath
+.project
+
+# PHING CONFIGURATION FILES
+/my.build.properties
+
+# NODES MODULES
 node_modules
+
+# SVN FILES
+*.svn
