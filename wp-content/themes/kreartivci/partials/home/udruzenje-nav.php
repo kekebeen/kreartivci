@@ -8,11 +8,11 @@
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:void(0)">O nama</a></li>
-                <li><a href="javascript:void(0)">Novosti</a></li>
-                <li><a href="javascript:void(0)">Projekti</a></li>
-                <li><a href="javascript:void(0)">Donatori</a></li>
-                <li><a href="javascript:void(0)">Kontakt</a></li>
+                <li><a href="#about">O nama</a></li>
+                <li><a href="#novosti">Novosti</a></li>
+                <li><a href="#projekti">Projekti</a></li>
+                <li><a href="#donatori">Donatori</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
                 <li><a href="javascript:void(0)">Shop</a></li>
             </ul>
         </nav>
