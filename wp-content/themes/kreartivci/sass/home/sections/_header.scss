@@ -101,3 +101,29 @@
         padding:0 2%;
     }
 }
+
+
+/*HERO SECTION STYLES
+============================*/
+.hero{
+    position:relative;
+    background:#333 url(https://unsplash.it/1680/1080/?random) no-repeat center center fixed;
+    background-size:cover;
+    text-align:center;
+    color:#fff;
+    padding-top:110px;
+    min-height:500px;
+    letter-spacing: 2px;
+    h1{
+        font-size:rem(100px);
+        line-height: 1.3;
+
+        span{
+            font-size:rem(50px);
+            color:#e8f380;
+            border-bottom:2px solid #e8f380;
+            padding-bottom:12px;
+            line-height:3;
+        }
+    }
+}
