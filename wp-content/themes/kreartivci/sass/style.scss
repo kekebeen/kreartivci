@@ -14,27 +14,30 @@ Text Domain: kreartivci
 */
 
 /* Vendor */
-@import "grid";
+@import "shop/grid";
 
 
 /* Setup */
-@import "reset";
-@import "mixins";
-@import "variables";
-@import "fonts";
-@import "globals";
-@import "typography";
-@import "btn";
-@import "wpcf";
-@import "lightbox";
+@import "shop/reset";
+@import "shop/mixins";
+@import "shop/variables";
+@import "shop/fonts";
+@import "shop/globals";
+@import "shop/typography";
+@import "shop/btn";
+@import "shop/wpcf";
+@import "shop/lightbox";
 
 
 /* WP parts */
-@import "header";
-@import "homepage";
-@import "product-single";
+/*SHOP HEADER*/
+@import "shop/header";
+/*SHOP PRODUCTS INDEX AND SINGLE*/
+@import "shop/homepage";
+@import "shop/product-single";
 @import "owl/owl";
-@import "footer";
+/*SHOP FOOTER*/
+@import "shop/footer";
 
 
 

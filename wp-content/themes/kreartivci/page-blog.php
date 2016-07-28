@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-  <?php include('partials/nav.php') ?>
+  <?php include('partials/shop/nav.php') ?>
 
   <div id="main">
   
@@ -53,7 +53,7 @@
         <?php wp_reset_query() ?>
       </div><!-- article list -->
     </div><!-- inner -->
-    <?php include('partials/footer.php') ?>
+    <?php include('partials/shop/footer.php') ?>
       
   </div><!-- main-->
 

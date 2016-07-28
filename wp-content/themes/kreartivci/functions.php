@@ -3,7 +3,10 @@
 /*  Register Scripts and Style */
 
 function theme_register_index_scripts() {
-    wp_enqueue_style( 'kreartivci-css', get_stylesheet_uri() );
+    if ( is_page( 'Udruzenje' ) ) {
+        wp_enqueue_style( 'home',esc_url(trailingslashit( get_template_directory_uri()) . 'home.css' ) );
+    }
+    else  wp_enqueue_style( 'kreartivci-css', get_stylesheet_uri() );
 
     wp_enqueue_script( 'kreartivci-js', esc_url( trailingslashit( get_template_directory_uri() ) . 'js/kreartivci.min.js' ), array( 'jquery' ), '2.2', true );
 }

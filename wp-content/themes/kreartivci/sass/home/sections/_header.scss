@@ -1,0 +1,103 @@
+.main-header{
+    position:fixed;
+    max-height: 70px;
+    width:100%;
+    padding-top:17px;
+    background:rgba(255,255,255,0.9);
+    top:0px;
+    border-bottom:1px solid lighten(#8f8f8f,30%);
+    overflow:hidden;
+    transition: all 0.3s;
+    padding-bottom:6px;
+    z-index:200;
+
+    @include small{
+        padding-top:25px;
+    }
+
+    &.open-nav{
+        max-height:400px!important;
+        .mobile-toggle{
+            transform:rotate(-90deg);
+        }
+    }
+
+    .logo{
+        width:50px;
+        font-size:rem(25px);
+        float:left;
+        display: block;
+        margin-top:0;
+        line-height:1;
+        margin-bottom:10px;
+        @include small{
+            float:none;
+        }
+    }
+
+    nav{
+        float:right;
+        width:60%;
+        @include small{width:100%;}
+
+        ul{
+            list-style: none;
+            overflow: hidden;
+            text-align: right;
+            float:right;
+            @include small{
+                padding-top:10px;
+                margin-bottom:22px;
+                float:left;
+                text-align: center;
+                width:100%;
+            }
+
+            li{
+                display: inline-block;
+                margin-left:35px;
+                line-height:1.5;
+                @include small{
+                    width:100%;
+                    padding:7px 0;
+                    margin:0;
+                }
+
+                a{
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+    .mobile-toggle{
+        display: none;
+        cursor:pointer;
+        font-size:rem(20px);
+        position:absolute;
+        right:22px;
+        top:0;
+        width:30px;
+        transition: all 200ms eae-in;
+        @include small{
+            display: block;
+
+        }
+        span{
+            width:30px;
+            height:4px;
+            margin-bottom:6px;
+            border-radius:1000px;
+            background:#8f8f8f;
+            display: block;
+        }
+    }
+
+    .header-row{
+        width:100%;
+        max-width:1170px;
+        margin:0 auto;
+        position:relative;
+        padding:0 2%;
+    }
+}

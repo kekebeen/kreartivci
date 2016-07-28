@@ -1,8 +1,9 @@
 <?php get_header(); ?>
-
+  
   <?php include('partials/shop/nav.php') ?>
+  
 
-  <div id="main">
+	<div id="main">
   
     <section class="hero">
       <div class="hero-inner">
@@ -16,18 +17,12 @@
     </section><!-- hero container -->
 
     <div class="inner">
-    
-    <article class="post-preview">
-      <?php if (have_posts() ): while(have_posts() ): the_post(); ?>
-      <h2><?php the_title( ); ?></h2>
-      <p><?php the_content( ); ?></p>
 
-    </article><!-- article -->
-      <?php endwhile; endif ?>
-
-      <?php wp_reset_query(); ?>
-
+      <?php include ('partials/shop/products.php') ?>
+      
     </div><!-- inner -->
-      <?php include('partials/shop/footer.php') ?>
+    <?php include('partials/shop/footer.php') ?>
 
+  </div><!-- main content div -->
+    
 <?php get_footer(); ?>

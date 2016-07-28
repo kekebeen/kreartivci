@@ -1,0 +1,26 @@
+/*
+Theme Name: kreartivci
+Theme URI: http://kreartivci.ba
+Author: www.code387.ba
+Author URI: http://code387.ba
+Description: Simple wp theme for custom product info page.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: kreartivci
+
+*/
+@import "home/colors";
+@import "home/base";
+@import "home/form";
+@import "home/grid";
+@import "home/link";
+@import "home/list";
+@import "home/spacing";
+@import "home/typography";
+@import "home/mixins";
+@import "home/utility";
+
+/*SECTIONS*/
+@import "home/sections/header";

@@ -1,0 +1,42 @@
+/* Box Sizing*/
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+     -moz-box-sizing: $box-model; // Firefox <= 19
+          box-sizing: $box-model;
+}
+/* =======================================================================
+## ++ Media Queries
+========================================================================== */
+
+@mixin small {
+  @media only screen and (max-width: 766px) {
+    @content;
+  }
+}
+
+
+/* =======================================================================
+## ++ Unit transform
+========================================================================== */
+
+/*  
+    Used for making containers have width in percentages. 
+    Usage: define elemnt width in px and the width of parent elemnt in px. 
+    eg. .block{width:cp(512px, 1024px)} this will result in .block{width:50%;}   
+*/
+
+@function cp($target, $container) {
+    @return ($target / $container) * 100%;
+}
+
+/*  
+    Used for making px values convert to rem values
+    Usage: define font-size in px and it will convert to rems
+    eg. font-size: rem(14px);
+*/
+
+@function rem($target, $context: $base-font-size) {
+   @if $target == 0 { @return 0 }
+   @return $target / $context + 0rem;
+}
+$base-font-size:16px;

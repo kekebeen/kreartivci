@@ -1,6 +1,6 @@
 <?php get_header(); ?>
   
-  <?php include('partials/nav.php') ?>
+  <?php include('partials/shop/nav.php') ?>
   
 
 	<div id="main">
@@ -15,10 +15,10 @@
         </div><!-- hero inner bg -->
         </section><!-- hero container -->
         <div class="inner">
-            <?php include ('partials/products-single.php') ?>
+            <?php include ('partials/shop/products-single.php') ?>
         </div><!-- inner -->
     </div><!-- main content div -->
-    <?php include('partials/footer.php') ?>
+    <?php include('partials/shop/footer.php') ?>
     
 <?php get_footer(); ?>
 

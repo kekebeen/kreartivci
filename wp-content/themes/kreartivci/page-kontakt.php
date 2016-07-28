@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-  <?php include('partials/nav.php') ?>
+  <?php include('partials/shop/nav.php') ?>
 
   <div id="main">
 
@@ -41,7 +41,7 @@
       </section> <!-- contact section -->
     
     </div><!-- inner -->
-      <?php include('partials/footer.php') ?>
+      <?php include('partials/shop/footer.php') ?>
     
   </div><!-- hero section -->
 
