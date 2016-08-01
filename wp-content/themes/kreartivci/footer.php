@@ -34,6 +34,27 @@
     </script>
    <?php endif ?>
 
+   <?php if(is_page('Udruzenje')): ?>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3CQteBIWJG_jENp1tO_2cGv32GbmPrYg&callback=initMap"
+      async defer></script>
+      <script>
+        function initMap(){
+          var mapDiv = document.getElementById('contact-map');
+          var map = new google.maps.Map(mapDiv, {
+            center: {lat: 43.853790, lng: 18.384090},
+            zoom: 16,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          });
+          var marker = new google.maps.Marker({
+            position: {lat: 43.853790, lng: 18.384090},
+            map: map,
+            title: 'kreartivci.ba'
+          });
+        }
+      </script>
+
+    <?php endif ?>
+
 	<?php wp_footer(); ?>
 </body>
 </html>

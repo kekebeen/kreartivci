@@ -34,7 +34,6 @@
         }
     });
 
-    // Navigation Scroll - ljepo radi materem
     $('nav a').click(function(event) {
         var id = $(this).attr("href");
         var offset = 70;

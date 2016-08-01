@@ -1,0 +1,22 @@
+#footer{
+    text-align: center;
+    margin-top:1em;
+    padding:5px 0;
+    color:#FFFFFF;
+
+    background: #232323;
+    background: -moz-radial-gradient(center, ellipse cover, #585858 0%, #232323 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #585858), color-stop(100%, #232323));
+    background: -webkit-radial-gradient(center, ellipse cover, #585858 0%, #232323 100%);
+    background: -o-radial-gradient(center, ellipse cover, #585858 0%, #232323 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #585858 0%, #232323 100%);
+    background: radial-gradient(ellipse at center, #585858 0%, #232323 100%);
+    background-size: 550% 450%;
+
+    .copyright{
+        text-align:center;
+        padding-top:1.2em;
+    }
+
+    a{color:inherit;}
+}

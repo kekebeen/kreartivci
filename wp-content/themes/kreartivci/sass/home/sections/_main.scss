@@ -1,6 +1,45 @@
 #main{
-
     .inner{
-        padding:50px 2% 250px;
+        //padding:50px 2% 250px;
+        padding-right: .9375rem;
+        padding-left: .9375rem;
+        margin-right: auto;
+        margin-left: auto;
+        &:before,
+        &:after{
+            display: table;
+            content:" ";
+        }
+        &:after{clear:both;}
     }
+}
+
+section h1{
+    text-align:center;
+    line-height:1.8;
+    padding:50px 0;
+}
+
+@media (min-width: 34em) {
+  .inner {
+    max-width: 34rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .inner {
+    max-width: 45rem;
+  }
+}
+
+@media (min-width: 62em) {
+  .inner {
+    max-width: 60rem;
+  }
+}
+
+@media (min-width: 75em) {
+  .inner {
+    max-width: 1170px;
+  }
 }

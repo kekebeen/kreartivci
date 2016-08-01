@@ -1,6 +1,6 @@
 <section id="about" class="about-section">
     <h1>O nama</h1>
-
+    
     <ul class="accordion">
         <li>
             <a href="javascript:void(0)">Osnivanje</a>
@@ -49,5 +49,5 @@
                 a sve u skladu sa Zakonom, Statutom i Općim aktima Udruženja.
             </p>
         </li>
-    </ul>
-</section>
+    </ul><!-- accordion -->
+</section><!-- about -->
