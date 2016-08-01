@@ -1,0 +1,39 @@
+.novosti-section{
+
+    .novost{
+        position:relative;
+        .novost-image img {height:auto;max-width:100%;}
+
+        .novost-body{
+            text-align: center;
+            background-color: #fbfbfb;
+            bottom: -50px;
+            left: 70px;
+            padding: 50px 0;
+            position: absolute;
+            right: 70px;
+            cursor:pointer;
+
+            &:hover{
+                .novost-title{
+                    color:#967ADC;
+                }
+            }
+
+            .novost-date{
+                font-size:12px;
+                text-transform: uppercase;
+            }
+
+            .novost-title{
+                text-transform: uppercase;
+                font-size:16px;
+                font-weight: 500;
+                line-height: 28px;
+                transition:all 200ms ease-in-out;
+
+                a{color:inherit;}
+            }
+        }
+    }
+}

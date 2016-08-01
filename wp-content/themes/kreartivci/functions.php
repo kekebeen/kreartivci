@@ -44,6 +44,7 @@ if ( function_exists( 'add_image_size' ) ) {
     add_image_size( 'featured-thumb', 300, 240, true );
     add_image_size( 'featured-single-thumb', 472, 475, true );
     add_image_size( 'blog-cover', 880, 375, true );
+    add_image_size('novosti-thumbnail',550,400,true);
 }
 
 
