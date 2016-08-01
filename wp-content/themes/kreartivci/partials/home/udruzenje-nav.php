@@ -12,7 +12,7 @@
                 <li><a href="#novosti">Novosti</a></li>
                 <li><a href="#projekti">Projekti</a></li>
                 <li><a href="#donatori">Donatori</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
+                <li><a href="#contact">Kontakt</a></li>
                 <li><a href="javascript:void(0)">Shop</a></li>
             </ul>
         </nav>

@@ -43,6 +43,7 @@
         }, 500);
         event.preventDefault();
     });
+
 })(jQuery);
 
 // Sticky Header
