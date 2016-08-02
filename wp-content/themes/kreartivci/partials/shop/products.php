@@ -37,10 +37,12 @@
                   </div><!-- product item-->
 
                 </div><!-- item div -->
-              <?php endwhile  ?>
-
                 <?php echo previous_posts_link(); ?>
-
+              <?php endwhile; else:  ?>
+                <div class="alert" style="height:300px;
+                                    display:flex;
+                                    justify-content:center;
+                                    align-items:center"><h3>Trenutno nema aktivnih proizvoda</h3></div>
                 <?php endif ?>
 
               <?php wp_reset_query(); ?>
