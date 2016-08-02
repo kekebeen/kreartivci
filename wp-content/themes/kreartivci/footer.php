@@ -21,12 +21,12 @@
       function initMap(){
         var mapDiv = document.getElementById('map');
         var map = new google.maps.Map(mapDiv, {
-          center: {lat: 43.853790, lng: 18.384090},
+          center: {lat: 43.85547, lng: 18.40809},
           zoom: 16,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         });
         var marker = new google.maps.Marker({
-          position: {lat: 43.853790, lng: 18.384090},
+          position: {lat: 43.85547, lng: 18.40809},
           map: map,
           title: 'kreartivci.ba'
         });
@@ -41,12 +41,12 @@
         function initMap(){
           var mapDiv = document.getElementById('contact-map');
           var map = new google.maps.Map(mapDiv, {
-            center: {lat: 43.853790, lng: 18.384090},
+            center: {lat: 43.86454, lng: 18.44421},
             zoom: 16,
             mapTypeId: google.maps.MapTypeId.ROADMAP
           });
           var marker = new google.maps.Marker({
-            position: {lat: 43.853790, lng: 18.384090},
+            position: {lat: 43.86454, lng: 18.44421},
             map: map,
             title: 'kreartivci.ba'
           });
