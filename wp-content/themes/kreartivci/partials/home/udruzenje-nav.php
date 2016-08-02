@@ -1,6 +1,6 @@
 <header class="main-header">
     <div class="header-row">
-        <div class="logo">Logo</div>
+        <div class="logo">kreArtivci</div>
         <div class="mobile-toggle">
             <span></span>
             <span></span>
@@ -13,7 +13,7 @@
                 <li><a href="#projekti">Projekti</a></li>
                 <li><a href="#donatori">Donatori</a></li>
                 <li><a href="#contact">Kontakt</a></li>
-                <li><a href="javascript:void(0)">Shop</a></li>
+                <li><a href="kreartivci/shop">Shop</a></li>
             </ul>
         </nav>
     </div>

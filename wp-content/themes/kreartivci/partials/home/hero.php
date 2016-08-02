@@ -1,6 +1,6 @@
 <div class="hero">
     <h1>
-        <span>Loser friendly</span><br>
-        Batman Nav
+        <span>live, love, art</span><br>
+        kreArtivci.ba
     </h1>
 </div>

@@ -30,12 +30,15 @@
 
     .logo{
         width:50px;
-        font-size:rem(25px);
+        font-size:rem(45px);
         float:left;
         display: block;
         margin-top:0;
         line-height:1;
+        padding-top:5px;
         margin-bottom:10px;
+        font-family:'Marck Script', cursive;
+        color:#967ADC;
         @include small{
             float:none;
         }
@@ -113,7 +116,8 @@
 ============================*/
 .hero{
     position:relative;
-    background:#333 url(https://unsplash.it/1680/1080/?random) no-repeat center center fixed;
+    //background:#333 url(https://unsplash.it/1680/1080/?random) no-repeat center center fixed;
+    background:#333 url('images/hero3.jpg') no-repeat top right fixed;
     background-size:cover;
     text-align:center;
     color:#fff;
