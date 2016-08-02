@@ -38,7 +38,7 @@
       letter-spacing: 3px;
       text-align: center;
       text-decoration: none;
-      color:#967ADC !important;
+      color:$color-primary-2 !important;
       font-family: 'Marck Script', cursive;
       @include phones{
         height:auto;
@@ -195,7 +195,7 @@ body > * > .inner{
         }
       }
       &:nth-of-type(1){
-        color:#967ADC;
+        color:$color-primary-2;
       }
       &:nth-of-type(2){
         margin-left:.5em;

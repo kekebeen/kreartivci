@@ -4,7 +4,7 @@
     background-color: transparent;
     outline:none;
     border:none;
-    border-bottom:2px solid #967ADC;
+    border-bottom:2px solid $color-primary-2;
     color: inherit;
     width: 50%;
 
@@ -15,7 +15,7 @@
 
 //NOT VALID
 span.wpcf7-not-valid-tip {
-  color: #967ADC!important;
+  color: $color-primary-2!important;
 }
 
 div.wpcf7-validation-errors {

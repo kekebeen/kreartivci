@@ -1,6 +1,9 @@
 <?php
     //$paged = (get_query_var('page')) ? get_query_var('page') : 1;
-    $args = array( 'post_type' => 'novosti','posts_per_page' =>'2');
+    $args = array( 'post_type' => 'novosti',
+                    'posts_per_page' =>'2',
+                    'cache_results' => false,
+                    'no_found_rows' => true);
     //$loop = new WP_Query( $args );
     query_posts($args);
 ?>

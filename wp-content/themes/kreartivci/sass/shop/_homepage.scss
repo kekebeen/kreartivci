@@ -58,7 +58,7 @@
       }
 
       &:after{
-        background-color: #967ADC;
+        background-color: $color-primary-2;
         position: absolute;
         content: "";
         display: block;
@@ -108,7 +108,7 @@
     .product-item-price{
       font-weight: 500;
       font-size:rem(24px);
-      color:#967ADC;
+      color:$color-primary-2;
     }
   }//product item image
 }
@@ -138,7 +138,7 @@
   a{
     text-decoration: none;
     padding:10px 15px;
-    border:1px solid #967ADC;
+    border:1px solid $color-primary-2;
   }
 }
 
