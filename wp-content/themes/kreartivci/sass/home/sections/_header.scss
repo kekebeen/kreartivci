@@ -46,13 +46,13 @@
 
     nav{
         float:right;
-        width:60%;
+        width:80%;
         @include small{width:100%;}
 
         ul{
             list-style: none;
             overflow: hidden;
-            text-align: right;
+            text-align: center;
             float:right;
             @include small{
                 padding-top:10px;

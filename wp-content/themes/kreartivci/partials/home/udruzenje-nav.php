@@ -13,7 +13,7 @@
                 <li><a href="#projekti">Projekti</a></li>
                 <li><a href="#donatori">Donatori</a></li>
                 <li><a href="#contact">Kontakt</a></li>
-                <li><a href="kreartivci/shop">Shop</a></li>
+                <li><a href="kreartivci/shop">OD "kreArtivci"</a></li>
             </ul>
         </nav>
     </div>

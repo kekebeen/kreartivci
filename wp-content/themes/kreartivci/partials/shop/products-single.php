@@ -16,7 +16,7 @@
 <div class="bcs clearfix">
     <a href="/">Početna</a>
     &nbsp;/&nbsp;
-    <a href="/">Artikli</a>
+    <a href="/shop">Artikli</a>
     &nbsp;/&nbsp;
     <a href="javascript:void(0)"><?php the_title() ?></a>
 
