@@ -20,9 +20,9 @@
                 <?php the_post_thumbnail('novosti-thumbnail'); ?>
             </div><!-- novost image -->
             <div class="novost-body">
-                <div class="novost-date"><?php the_date(); ?></div>
+                <div class="novost-date"><?php the_time('F j, Y'); ?></div>
                 <h4 class="novost-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-                <div class="novost-author">Napisano od <?php the_author(); ?></p></div>
+                <div class="novost-author">Napisano od kreArtivci</p></div>
             </div><!-- novost body -->
         </article><!-- article -->
 
