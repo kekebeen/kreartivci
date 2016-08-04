@@ -56,3 +56,4 @@ $(window).scroll(function() {
     }
 });
 
+console.log("Shoutout to unsplash.com for beautiful images");
