@@ -7,6 +7,7 @@
             <?php include('partials/home/about.php'); ?>
             <?php include('partials/home/novosti.php'); ?>
             <?php include('partials/home/donatori.php'); ?>
+            <?php include('partials/home/partneri.php'); ?>
             <?php include('partials/home/contact.php'); ?>
         </div><!-- inner -->
         <?php include('partials/home/footer.php'); ?>

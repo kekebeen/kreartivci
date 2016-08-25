@@ -1,6 +1,7 @@
 <?php
     //$paged = (get_query_var('page')) ? get_query_var('page') : 1;
     $args = array( 'post_type' => 'novosti',
+                    'post_status' => 'publish',
                     'posts_per_page' =>'2',
                     'cache_results' => false,
                     'no_found_rows' => true);
@@ -25,8 +26,11 @@
                 <div class="novost-author">Napisano od kreArtivci</p></div>
             </div><!-- novost body -->
         </article><!-- article -->
-
         <?php endwhile ?>
+        <?php else: ?>
+            <div style="width:100%;padding-top:100px;padding-bottom:50px;text-align:center;border:1px solid rgba(0,0,0,0.1);">
+                <h3>Trenutno nema aktivnih novosti ...</h3>
+            </div>
         <?php endif ?>
         <?php wp_reset_query(); ?>
     </div><!-- row -->

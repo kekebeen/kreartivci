@@ -6,25 +6,19 @@
         <div class="column about-body">
             <ul class="accordion">
                 <li>
-                    <a href="javascript:void(0)">Osnivanje</a>
-                    <p>Udruženje „kreArtivci“ osnovano je 29. marta 2016. godine na Osnivačkoj skupštini
-                        u Sarajevu. Udruženje je upisano pod registarskim brojem 1810 knjiga III registra, dana
-                        29.03.2016. godine kod Ministarstva pravde Federacije Bosne i Hercegovine. Skraćeni naziv
-                        Udruženja je „KreArtivci“ sa sjedištem u Sarajevu, ulica Zmajevac broj 50.</p>
-                </li>
-                <li>
                     <a href="javascript:void(0)">O nama</a>
-                    <p>Udruženje „kreArtivci“ je nestranačko, nevladino i neprofitno udruženje, čiji je cilj
-                        kroz edukacije, radionice, kurseve, projekte, humanitarne akcije ohrabriti žene u razvijanju
-                        njihovih vlastitih potencijala i vještina, kako bi podigli svijest o vrijednosti sebe, ali i svijest o
-                        važnosti zajedničkog rada. KreArtivci su osnovani prvenstveno radi okupljanja i potpore
-                        ženama da se uključe u zajednicu kroz kreativni rad i lični angažman u očuvanju
-                        tradicionalnih rukotvorina.</p>
+                    <p>
+                        Udruženje „kreArtivci“ osnovano je 29. marta 2016. godine na Osnivačkoj skupštini u Sarajevu. Udruženje je upisano pod registarskim brojem 1810 knjiga III registra, dana 29.03.2016. godine kod Ministarstva pravde Federacije Bosne i Hercegovine. Skraćeni naziv Udruženja je „KreArtivci“ sa sjedištem u Sarajevu, ulica Zmajevac broj 50.<br>
+                        Udruženje „kreArtivci“ je nestranačko, nevladino i neprofitno udruženje, čiji je cilj kroz edukacije, radionice, kurseve, projekte, humanitarne akcije ohrabriti žene u razvijanju njihovih vlastitih potencijala i vještina, kako bi podigli svijest o vrijednosti sebe, ali i svijest o važnosti zajedničkog rada. KreArtivci su osnovani prvenstveno radi okupljanja i potpore ženama da se uključe u zajednicu kroz kreativni rad i lični angažman u očuvanju tradicionalnih rukotvorina.<br/><br/>
+
+                        Predsjednica Skupštine Udruženja: <b>Ajla Hajdarević</b><br>
+                        Predsjednica Udruženja: <b>Lejla Popara</b><br>
+                    </p>
                 </li>
                 <li>
                     <a href="javascript:void(0)">Ciljevi</a>
                     <p>
-                        Radi ostvarivanja svojih ciljeva Udruženje će se zalagati za obavljanje sljedećih djelatnosti:
+                        - Radi ostvarivanja svojih ciljeva Udruženje će se zalagati za obavljanje sljedećih djelatnosti:
                         - Zalagati će se za organizovanje praktične obuke iz oblasti rukotvorina i to:
                         pletenje, vez, tkanje, krojenje, šivenje, izrada nakita, ručni dizajn, slikanje i
                         slično;<br>
@@ -49,6 +43,14 @@
                         kolonijama;<br>
                         - Zalagati će se za obavljanje drugih poslova i djelatnosti od interesa za Udruženje,
                         a sve u skladu sa Zakonom, Statutom i Općim aktima Udruženja.<br>
+                    </p>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Misija i Vizija</a>
+                    <p>
+                        Kroz dizajn i rukotvorine omogućiti ženama iz marginaliziranih socijalnih grupa, ženama oboljelim i liječenim od karcinoma, kao i svim ženama bez primanja ili s niskim primanjima da se uključe u normalne životne tokove kroz kreativni rad i vlastiti angažman te da barem na trenutak zaborave tešku svakodnevnicu.<br>
+
+                        Uvjereni smo da postoje institucije koje će prepoznati rad našeg Udruženja na ovim prostorima te poduprijeti rad za zajedničko dobro u svrhu ekonomskog osnaživanja žene i očuvanju tradicije.
                     </p>
                 </li>
             </ul><!-- accordion -->
