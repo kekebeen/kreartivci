@@ -5,13 +5,13 @@
 function theme_register_index_scripts() {
     if ( is_page( 'Udruzenje' ) ) {
         wp_enqueue_style( 'home',esc_url(trailingslashit( get_template_directory_uri()) . 'home.css' ) );
-        wp_enqueue_script( 'kreartivci-js', esc_url( trailingslashit( get_template_directory_uri() ) . 'js/home.js' ), array( 'jquery' ), '2.2', true );
+        wp_enqueue_script( 'kreartivci-js', esc_url( trailingslashit( get_template_directory_uri() ) . 'js/home.js' ), array( 'jquery' ), '2.2.4', true );
     }
     else if( is_singular('novosti') ) {
         wp_enqueue_style( 'home',esc_url(trailingslashit( get_template_directory_uri()) . 'home.css' ) );
     }
     else  wp_enqueue_style( 'kreartivci-css', get_stylesheet_uri() );
-    wp_enqueue_script( 'kreartivci-js', esc_url( trailingslashit( get_template_directory_uri() ) . 'js/kreartivci.min.js' ), array( 'jquery' ), '2.2', true );
+    wp_enqueue_script( 'kreartivci-js', esc_url( trailingslashit( get_template_directory_uri() ) . 'js/kreartivci.min.js' ), array( 'jquery' ), '2.2.4', true );
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_register_index_scripts', 1 );

@@ -12,11 +12,11 @@
     <h1>Novosti</h1>
 
     <div class="row">
-        <?php 
+        <?php
             if(have_posts() ):
             while(have_posts() ): the_post();
         ?>
-        <article class="column novost">
+        <article class="column-50 novost">
             <div class="novost-image">
                 <?php the_post_thumbnail('novosti-thumbnail'); ?>
             </div><!-- novost image -->

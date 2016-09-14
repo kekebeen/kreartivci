@@ -47,12 +47,12 @@
 })(jQuery);
 
 // Sticky Header
-$(window).scroll(function() {
+jQuery(window).scroll(function() {
 
-    if ($(window).scrollTop() > 100) {
-        $('.main-header').addClass('sticky');
+    if (jQuery(window).scrollTop() > 100) {
+        jQuery('.main-header').addClass('sticky');
     } else {
-        $('.main-header').removeClass('sticky');
+        jQuery('.main-header').removeClass('sticky');
     }
 });
 
