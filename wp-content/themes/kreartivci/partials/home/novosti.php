@@ -16,7 +16,7 @@
             if(have_posts() ):
             while(have_posts() ): the_post();
         ?>
-        <article class="column-50 novost">
+        <article class="column column-50 novost">
             <div class="novost-image">
                 <?php the_post_thumbnail('novosti-thumbnail'); ?>
             </div><!-- novost image -->
